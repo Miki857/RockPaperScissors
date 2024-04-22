@@ -1,0 +1,133 @@
+/* ATRIBUTES */
+.flex{
+    display: flex;
+  }
+  
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.gap-00_5{
+    gap: 0.5rem;
+}
+
+.gap-01{
+    gap: 1rem;
+}
+
+.gap-01_5{
+    gap: 1.5rem;
+}
+
+.gap-02{
+    gap: 2rem;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-evenly{
+    align-items: space-evenly;
+}
+
+.align-around{
+    align-items: space-around;
+}
+
+.align-between{
+    align-items: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.height-fitContent{
+    height: fit-content;
+}
+
+.margin-top-00_5{
+    margin-top: 0.5rem;
+}
+
+.margin-top-01{
+    margin-top: 1rem;
+}
+
+.margin-top-01_5{
+    margin-top: 1.5rem;
+}
+
+.margin-top-02{
+    margin-top: 2rem;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.hiddenTransition{
+    transform: translateY(-100vh);
+    opacity: 0;
+}
+
+.hiddenOpacity{
+    opacity: 0;
+}
+
+.hiddenScale{
+    transform: scale(0.0);
+    opacity: 0;
+}
+
+.button{
+    background-color: transparent;
+    color: white;
+    font-weight: var(--font-very-thin);
+
+    border: solid 1px white;
+    border-radius: 0.5rem;
+
+    padding: 0.5rem 3rem;
+
+    transition: all 0.2s ease-in-out;
+
+    font-size: 1.5rem;
+}
+
+.button:hover{
+    box-shadow: 5px 5px 10px black;
+    transform: scale(1.1);
+}
+
+.button:active{
+    outline: solid 1px blue;
+}
+
+.span{
+    background-color: white;
+    padding: 0.5rem 1rem;
+    color: black;
+    border-radius: 0.5rem;
+}
